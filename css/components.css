@@ -503,6 +503,13 @@ textarea.campo__entrada{
     font-weight: bold;
     text-align: center;
 }
+/* Perfil */
+
+/* Perfil usuario */
+
+.perfil{
+    background-color: none;
+}
 
 @media (min-width: 800px){
     .tarjeta-grid{
