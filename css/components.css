@@ -503,7 +503,62 @@ textarea.campo__entrada{
     font-weight: bold;
     text-align: center;
 }
+/* Perfil */
 
+/* Perfil usuario */
+
+.perfil__img{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+.perfil__icono{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+.perfil__nombre{
+    color: var(--color-titulos);
+    font-size: 3rem;
+}
+.estadisticas{
+    display: grid;
+    margin-top: 60px;
+}
+.estadisticas__titulo{
+    color: var(--color-titulos);
+    font-size: 2rem;
+}
+.items{
+    background-color: rgb(202, 252, 202);
+    border-radius: 34px;
+    margin: 20px;
+    padding: 15px;
+}
+.item__icono{
+    display: grid;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+.item__info{
+    display: grid;
+    font-weight: bold;
+    font-family: var(--fuente-alternativa);    
+}
+.barra{
+    border-radius: 12px;
+    background-color: var(--color-resalto-verde);
+    border: 2px solid var(--color-verde-mid);
+    width: 80%;
+    height: 1rem;
+}
 @media (min-width: 800px){
     .tarjeta-grid{
         grid-template-columns: 1.2fr 1fr;
